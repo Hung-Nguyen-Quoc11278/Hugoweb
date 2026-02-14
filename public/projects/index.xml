@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on HungDevFreeLance</title>
+    <link>https://hungvnprocessingdev.click/projects/</link>
+    <description>Recent content in Projects on HungDevFreeLance</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://hungvnprocessingdev.click/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project Alpha: Hệ thống Web tĩnh trên môi trường di động</title>
+      <link>https://hungvnprocessingdev.click/projects/du-an-1/</link>
+      <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://hungvnprocessingdev.click/projects/du-an-1/</guid>
+      <description>&lt;h3 id=&#34;-bối-cảnh-dự-án&#34;&gt;📌 Bối cảnh dự án&lt;/h3&gt;&#xA;&lt;p&gt;Thách thức đặt ra là xây dựng một hệ thống quản lý nội dung mạnh mẽ, có khả năng xử lý hàng ngàn trang dữ liệu nhưng phải &lt;strong&gt;vận hành với chi phí 0đ&lt;/strong&gt; và không phụ thuộc vào các máy chủ truyền thống cồng kềnh.&lt;/p&gt;&#xA;&lt;h3 id=&#34;-giải-pháp-kỹ-thuật&#34;&gt;🛠 Giải pháp kỹ thuật&lt;/h3&gt;&#xA;&lt;p&gt;Thay vì sử dụng các bộ mã nguồn nặng nề, mình đã triển khai giải pháp &lt;strong&gt;Jamstack&lt;/strong&gt;:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

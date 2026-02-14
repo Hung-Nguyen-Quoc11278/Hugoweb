@@ -1,0 +1,25 @@
+baseURL = 'https://hungvnprocessingdev.click/'
+languageCode = 'en-us'
+title = 'HungDevFreeLance'
+theme = 'ananke'
+
+[[menu.main]]
+    name = "Dịch vụ Freelance"
+    url = "/services/"
+    weight = 1
+
+[[menu.main]]
+    name = "Kho Dự án"
+    url = "/projects/"
+    weight = 2
+
+[[menu.main]]
+    name = "Về tôi"
+    url = "/about/"
+    weight = 3
+
+[[menu.main]]
+    name = "Liên hệ"
+    url = "/contact/"
+    weight = 4
+
