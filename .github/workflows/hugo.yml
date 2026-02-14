@@ -1,4 +1,3 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
 name: Deploy Hugo site to Pages
 
 on:
@@ -23,7 +22,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.143.1 # Cập nhật bản mới ổn định hơn
+      HUGO_VERSION: 0.146.0 # Nâng cấp lên bản 0.146.0 theo yêu cầu của Ananke
     steps:
       - name: Install Hugo CLI
         run: |
@@ -36,7 +35,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive # Đảm bảo tải theme Ananke
+          submodules: recursive
           fetch-depth: 0
 
       - name: Setup Pages
