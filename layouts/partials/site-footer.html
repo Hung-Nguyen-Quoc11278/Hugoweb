@@ -1,0 +1,17 @@
+<footer class="{{ .Site.Params.background_color_class | compare.Default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="{{ .Site.Home.Permalink }}" >
+    &copy; {{ with .Site.Copyright | compare.Default .Site.Title }} {{ . | safe.HTML }} {{ now.Format "2006"}} {{ end }}
+  </a>
+    <div>{{ partials.IncludeCached "social/follow.html" . }}</div>
+  </div>
+</footer>
+<div style="position: fixed; bottom: 20px; right: 20px; z-index: 9999; display: flex; flex-direction: column; gap: 10px;">
+    <a href="https://m.me/nguyen.quoc.hung.131770" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg" width="50" height="50" style="filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.3));">
+    </a>
+
+    <a href="https://zalo.me/0373434798" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg" width="50" height="50" style="filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.3));">
+    </a>
+</div>
